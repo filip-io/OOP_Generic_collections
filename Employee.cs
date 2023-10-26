@@ -25,7 +25,7 @@ namespace OOP_Generic_collections
         }
 
 
-        // Used to override the build in ToString() method in the Employee class to return a custom string
+        // Used to override the built in ToString() method in the Employee class to return a custom string
         public override string ToString()
         {
             return $"{Id} - {Name} - {Gender} - {Salary}";
